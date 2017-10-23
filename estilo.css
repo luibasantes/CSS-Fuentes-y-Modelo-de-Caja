@@ -1,9 +1,9 @@
-body {
-	background-color: #ffffff;
-	margin: 0 15%;
-	font-family: sans-serif;
+
+header {
+	background-color:#866262;
 }
-header > hgroup > h1 {
+header > h1 {
+	
 	text-align: center;
 	font-family: serif;
 	font-weight: normal;
@@ -11,37 +11,49 @@ header > hgroup > h1 {
 	border-bottom: 1px solid #57b1dc;
 	margin-top: 30px;
 }
-
-header > hgroup >  h2 {
-	text-align: center;
-	color: #3CB7BF;
-	font-size: 1em;
+div.box {
+		border:1pt solid #cbccc1;
+		margin:5px;
+		padding:1px;
+		width:50%;
+				
+}
+div#foto > img{
+	border:0pt solid #ffffff;
+	margin:5px;
+	width:25%;
+	float:left;		
+}
+div#datos > h2{
+	text-align:center;
 }
 
-figure > figcaption {
-	text-align: center;
+span.foto > img{
+	margin:10px;
+	width:25%;
+	float:left;
 }
 
-header > img, figure > img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+p.title {
+	font-style:italic;
+}
+div.habilidad > div{
+	display:inline;
+	border-radius:1em;
+	padding:5pt;
+	margin:5px;
+}
+div.habilidad div:first-child{
+	background-color:#364ab4
+}
+div.habilidad div:last-child{
+	background:#d3d3d3;
+	box-shadow: 10px 10px 5px #888888;
+}
+div.habilidad{
+	display:inline;
+	
 }
 
-section > article > header > h3{
-	border-bottom: 0.3px dotted #80d3fc;
-}
 
-section > article {
-	width: 50%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	padding-top: 15px;
-}
 
-section > article > iframe {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
