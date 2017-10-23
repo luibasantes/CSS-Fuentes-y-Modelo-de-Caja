@@ -1,6 +1,6 @@
 
 header {
-	background-color:#866262;
+		
 }
 header > h1 {
 	
@@ -13,24 +13,25 @@ header > h1 {
 }
 div.box {
 		border:1pt solid #cbccc1;
-		margin:5px;
+		margin:auto;
 		padding:1px;
 		width:50%;
+		margin-bottom:5pt;
+				
 				
 }
-div#foto > img{
-	border:0pt solid #ffffff;
-	margin:5px;
-	width:25%;
-	float:left;		
+div.box > *{
+	margin:10pt;
 }
+
 div#datos > h2{
 	text-align:center;
 }
 
 span.foto > img{
 	margin:10px;
-	width:22%;
+	width:17%;
+	float:left;
 	
 }
 
@@ -50,6 +51,7 @@ div.habilidad div:last-child{
 	background:#d3d3d3;
 	box-shadow: 10px 10px 5px #888888;
 }
+
 div.habilidad{
 	display:inline;
 	
