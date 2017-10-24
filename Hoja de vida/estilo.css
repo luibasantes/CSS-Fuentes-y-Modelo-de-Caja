@@ -38,13 +38,14 @@ div#datos > h2{
 }
 
 img.foto{
-	margin:10px;
+	margin:5px;
 	margin-top:0px;
 	width:20%;
 	float:left;
 	
 }
 img.foto#profile{
+	margin-right:10px;
 	width:15%;
 	
 }
@@ -57,14 +58,24 @@ div.habilidad > div{
 	border-radius:1em;
 	padding:5pt;
 	margin:5px;
+	
 }
 div.habilidad div:first-child{
-	background-color:#364ab4
+	background-color:#364ab4;
+	border-radius:1em;
+	position:relative;
 }
 div.habilidad div:last-child{
 	background:#d3d3d3;
 	box-shadow: 10px 10px 5px #888888;
+	padding-left: 35px;
+	margin-left: -35px;
+	margin-right: 40px;
+	
+	
 }
+
+
 
 div.habilidad{
 	display:inline;
