@@ -10,7 +10,7 @@ header > h1 {
 	
 }
 hr.seccion {
-    border-top:1px dotted #000;
+    border-top:1px dotted #e0d2b1;
     
 }
 body{
@@ -82,9 +82,11 @@ div.flex-box{
 img.foto{
 	margin:5px;
 	margin-top:0px;
-	width:20%;
+	width:30%;
 	float:left;
-	
+}
+div > h2 ~ p{
+	padding:20px;
 }
 
 
