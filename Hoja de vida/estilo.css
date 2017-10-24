@@ -1,4 +1,13 @@
-
+h2{
+	margin:0px;
+	padding:0px;
+	
+}
+h3{
+	margin:0px;
+	padding:0px;
+	display:inline;
+}
 header {
 		
 }
@@ -13,12 +22,12 @@ header > h1 {
 }
 div.box {
 		border:1pt solid #cbccc1;
-		margin:auto;
+		
 		padding:1px;
 		width:50%;
+		margin:auto;
 		margin-bottom:5pt;
-				
-				
+					
 }
 div.box > *{
 	margin:10pt;
@@ -28,13 +37,18 @@ div#datos > h2{
 	text-align:center;
 }
 
-span.foto > img{
+img.foto{
 	margin:10px;
-	width:17%;
+	margin-top:0px;
+	width:20%;
 	float:left;
 	
 }
-
+img.foto#profile{
+	width:15%;
+	
+}
+	
 p.title {
 	font-style:italic;
 }
@@ -54,8 +68,8 @@ div.habilidad div:last-child{
 
 div.habilidad{
 	display:inline;
-	
 }
+
 
 
 
